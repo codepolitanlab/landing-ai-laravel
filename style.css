@@ -1899,4 +1899,22 @@ h6 {
     .navbar-container {
         justify-content: space-between;
     }
+
+    /* Modal Mobile Fixes */
+    .modal {
+        align-items: flex-start;
+        /* Start from top to allow scrolling if needed */
+        padding-top: var(--spacing-4xl);
+        /* Space from top */
+        overflow-y: auto;
+        /* Enable vertical scrolling for the overlay */
+    }
+
+    .modal-content {
+        margin: var(--spacing-md) auto;
+        width: 90%;
+        /* Slightly wider on mobile */
+        max-height: none;
+        /* Let content flow */
+    }
 }
