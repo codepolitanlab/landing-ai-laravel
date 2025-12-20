@@ -16,12 +16,37 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="navbar-brand">
+                <img src="https://image.web.id/images/codepolitan-logoc787963e27f753de.png" alt="CODEPOLITAN"
+                    class="nav-logo">
+            </a>
+
+            <button class="hamburger-menu" id="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-links mobile-hidden" id="nav-links">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#syllabus" class="nav-link">SILABUS</a></li>
+                    <li class="nav-item"><a href="#mentor" class="nav-link">MENTOR</a></li>
+                    <li class="nav-item"><a href="#fasilitas" class="nav-link">FASILITAS</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#pricing" class="btn btn-primary">DAFTAR SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <img src="https://image.web.id/images/textputih.png" alt="Codepolitan Logo" class="hero-logo">
                     <h1 class="hero-headline fade-in">
                         Kuasai Laravel 12 & AI: Cara Tercepat Menjadi Developer Elit yang Dibutuhkan Industri Tahun
                         2026.
@@ -176,7 +201,7 @@
     </section>
 
     <!-- Mentors Section -->
-    <section class="mentors">
+    <section class="mentors" id="mentor">
         <div class="container">
             <h2 class="section-title scroll-animate">Belajar Langsung dari Mentor Berpengalaman</h2>
             <p class="section-intro scroll-animate">
@@ -227,7 +252,7 @@
     </section>
 
     <!-- Solution Section -->
-    <section class="solution">
+    <section class="solution" id="syllabus">
         <div class="container">
             <h2 class="section-title scroll-animate">Memperkenalkan: Bundle Roadmap "The AI-Powered Laravel 12
                 Developer"</h2>
@@ -297,6 +322,24 @@
                     <h3>Filament Mastery</h3>
                     <p>Cara tercepat membuat Admin Panel yang elegan dan powerful.</p>
                     <button class="btn-syllabus" onclick="openSyllabus('filament')">Lihat Isi Materi</button>
+                </div>
+
+                <!-- New Dummy Course 1 -->
+                <div class="course-card scroll-animate">
+                    <img src="https://placehold.co/600x400/png" alt="Dummy Course 1" class="course-thumbnail">
+                    <div class="course-number">08</div>
+                    <h3>New Course Update 1</h3>
+                    <p>Materi baru yang akan segera hadir untuk melengkapi skillmu.</p>
+                    <button class="btn-syllabus" onclick="openSyllabus('dummy1')">Lihat Isi Materi</button>
+                </div>
+
+                <!-- New Dummy Course 2 -->
+                <div class="course-card scroll-animate">
+                    <img src="https://placehold.co/600x400/png" alt="Dummy Course 2" class="course-thumbnail">
+                    <div class="course-number">09</div>
+                    <h3>New Course Update 2</h3>
+                    <p>Materi baru yang akan segera hadir untuk melengkapi skillmu.</p>
+                    <button class="btn-syllabus" onclick="openSyllabus('dummy2')">Lihat Isi Materi</button>
                 </div>
             </div>
         </div>
@@ -473,7 +516,7 @@
     </section>
 
     <!-- Value Comparison -->
-    <section class="value-comparison">
+    <section class="value-comparison" id="fasilitas">
         <div class="container">
             <h2 class="section-title scroll-animate">Keputusan Paling Cerdas untuk Investasi Kariermu.</h2>
 
@@ -543,7 +586,7 @@
                         <span class="cta-current-price">Rp 449.000</span>
                     </div>
                     <a href="#" class="btn btn-primary btn-large btn-pulse">Daftar Sekarang</a>
-                    <p class="cta-guarantee">🔒 30 Hari Garansi Uang Kembali</p>
+                    <p class="cta-guarantee"><i class="fa-solid fa-shield-halved"></i> 30 Hari Garansi Uang Kembali</p>
                 </div>
 
                 <div class="cta-features">
@@ -604,7 +647,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq-section">
+    <section class="faq-section" id="faq">
         <div class="container">
             <h2 class="section-title scroll-animate">Masih Punya Pertanyaan Sebelum Memulai?</h2>
             <p class="section-intro scroll-animate">
@@ -783,7 +826,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Codepolitan. All rights reserved.</p>
+            <img src="https://image.web.id/images/codepolitan-logoc787963e27f753de.png" alt="Codepolitan">
+            <p>&copy; 2025 CODEPOLITAN. All rights reserved.</p>
             <p>The AI-Powered Laravel 12 Developer - Investasi Terbaik untuk Kariermu</p>
         </div>
     </footer>
@@ -794,12 +838,17 @@
             <span class="close-modal" onclick="closeSyllabus()">&times;</span>
             <h2 id="modalTitle" class="modal-title">Course Title</h2>
             <p id="modalDesc" class="modal-desc">Course Description</p>
+            <!-- Duration Badge -->
+            <div class="syllabus-meta">
+                <div class="duration-badge">
+                    <i class="fa-regular fa-clock"></i> <span id="totalDuration">Calculating...</span>
+                </div>
+            </div>
+
             <div class="syllabus-container">
-                <table class="syllabus-table">
-                    <tbody id="modalSyllabus">
-                        <!-- Content populated by JS -->
-                    </tbody>
-                </table>
+                <div id="syllabusAccordion" class="syllabus-accordion">
+                    <!-- Dynamic content from JS -->
+                </div>
             </div>
         </div>
     </div>

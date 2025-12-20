@@ -353,130 +353,238 @@ const courseData = {
         title: 'Fundamental PHP 8',
         description: 'Bangun fondasi yang kokoh dengan PHP 8 modern. Kelas ini dirancang untuk pemula yang ingin memahami konsep dasar pemrograman server-side.',
         syllabus: [
-            'Pengenalan & Instalasi Environment (XAMPP/Laragon)',
-            'Basic Syntax, Variable & Tipe Data',
-            'Operator & Logic Control Structure',
-            'Perulangan (Looping) & Array Manipulation',
-            'Function & Type Hinting di PHP 8',
-            'Superglobal Variables & Form Handling',
-            'PHP 8 New Features (Named Arguments, Union Types)'
+            {
+                topic: "Persiapan & Dasar",
+                materials: [
+                    { title: "Pengenalan & Instalasi Environment", duration: "10:00" },
+                    { title: "Basic Syntax & Variable", duration: "15:00" },
+                    { title: "Tipe Data & Operator", duration: "20:00" }
+                ]
+            },
+            {
+                topic: "Control Structure",
+                materials: [
+                    { title: "Logic Control Structure (If/Else, Switch)", duration: "25:00" },
+                    { title: "Perulangan (For, While, Foreach)", duration: "20:00" }
+                ]
+            },
+            {
+                topic: "Fungsi & Fitur Modern",
+                materials: [
+                    { title: "Function & Type Hinting", duration: "30:00" },
+                    { title: "Superglobal Variables", duration: "15:00" },
+                    { title: "PHP 8 New Features", duration: "20:00" }
+                ]
+            }
         ]
     },
     'oop': {
         title: 'Object-Oriented Programming (OOP) PHP',
         description: 'Kuasai paradigma OOP standar industri. Materi ini wajib bagi kamu yang ingin lanjut mempelajari Framework Laravel.',
         syllabus: [
-            'Konsep Dasar Class & Object',
-            'Constructor & Destructor',
-            'Inheritance (Pewarisan)',
-            'Visibility (Public, Private, Protected)',
-            'Abstract Class & Interface',
-            'Namespace & Autoloading (Composer)',
-            'Trait & Anonymous Class'
+            {
+                topic: "Konsep Dasar OOP",
+                materials: [
+                    { title: "Class & Object", duration: "15:00" },
+                    { title: "Property & Method", duration: "20:00" },
+                    { title: "Constructor & Destructor", duration: "15:00" }
+                ]
+            },
+            {
+                topic: "Advanced OOP",
+                materials: [
+                    { title: "Inheritance (Pewarisan)", duration: "25:00" },
+                    { title: "Encapsulation & Visibility", duration: "20:00" },
+                    { title: "Abstract Class & Interface", duration: "30:00" }
+                ]
+            },
+            {
+                topic: "Modern PHP OOP",
+                materials: [
+                    { title: "Namespace & Autoloading", duration: "15:00" },
+                    { title: "Trait & Anonymous Class", duration: "20:00" }
+                ]
+            }
         ]
     },
     'olx': {
         title: 'Studi Kasus OLX Clone',
         description: 'Praktek langsung membangun aplikasi web marketplace barang bekas dari nol dengan bantuan AI tools.',
         syllabus: [
-            'Perancangan Database & Model',
-            'Authentication & Authorization',
-            'CRUD Produk & Upload Gambar Multiple',
-            'Implementasi Fitur Pencarian & Filter',
-            'Integrasi Lokasi & Wilayah',
-            'Windsurf AI: Generating Code Logic',
-            'Deployment ke Hosting'
+            {
+                topic: "Perancangan Sistem",
+                materials: [
+                    { title: "Analisis Kebutuhan", duration: "15:00" },
+                    { title: "Database Design & ERD", duration: "30:00" }
+                ]
+            },
+            {
+                topic: "Backend Development",
+                materials: [
+                    { title: "Setup Laravel & Auth", duration: "20:00" },
+                    { title: "CRUD Produk", duration: "45:00" },
+                    { title: "Upload Gambar Multiple", duration: "25:00" }
+                ]
+            },
+            {
+                topic: "Frontend & AI Integration",
+                materials: [
+                    { title: "Search & Filter Feature", duration: "30:00" },
+                    { title: "Windsurf AI Integration", duration: "20:00" },
+                    { title: "Deployment", duration: "15:00" }
+                ]
+            }
         ]
     },
     'laravel11': {
         title: 'Laravel 11 Fullstack',
         description: 'Panduan lengkap Framework Laravel 11. Membahas fitur-fitur core hingga best practice struktur aplikasi.',
         syllabus: [
-            'Instalasi & Struktur Folder Laravel 11',
-            'Routing & Controller',
-            'Blade Templating Engine',
-            'Database Migration & Seeding',
-            'Eloquent ORM & Relationships',
-            'Form Validation & Request Handling',
-            'Middleware & Security'
+            {
+                topic: "Getting Started",
+                materials: [
+                    { title: "Instalasi Laravel 11", duration: "10:00" },
+                    { title: "Struktur Folder & Konfigurasi", duration: "15:00" }
+                ]
+            },
+            {
+                topic: "Core Features",
+                materials: [
+                    { title: "Routing & Controller", duration: "25:00" },
+                    { title: "Blade Templating Engine", duration: "30:00" },
+                    { title: "Request & Validation", duration: "20:00" }
+                ]
+            },
+            {
+                topic: "Database & Security",
+                materials: [
+                    { title: "Migration & Seeding", duration: "20:00" },
+                    { title: "Eloquent ORM", duration: "35:00" },
+                    { title: "Middleware & Authentication", duration: "25:00" }
+                ]
+            }
         ]
     },
+    // Dummy data for other courses to maintain functionality
     'laravel12': {
         title: 'Laravel 12 Master (HRIS)',
         description: 'Deep dive ke Laravel 12 dengan studi kasus kompleks membuat Sistem Informasi SDM (HRIS) perusahaan.',
         syllabus: [
-            'Laravel 12 New Features Overview',
-            'HRIS Database Design (Multi-tenant)',
-            'Module Management Karyawan',
-            'Sistem Absensi & Payroll',
-            'Role & Permission Management',
-            'Advanced Eloquent & Performance Tuning',
-            'Testing & Deployment'
+            {
+                topic: "Laravel 12 Overview",
+                materials: [
+                    { title: "What's New in Laravel 12", duration: "15:00" },
+                    { title: "Upgrade Guide", duration: "10:00" }
+                ]
+            },
+            {
+                topic: "HRIS Module 1",
+                materials: [
+                    { title: "Database Architecture", duration: "30:00" },
+                    { title: "Employee Management", duration: "40:00" }
+                ]
+            }
         ]
     },
     'pos': {
         title: 'AI-Driven Restoran App',
         description: 'Membuat aplikasi Point of Sales (Kasir) restoran dengan fitur cerdas menggunakan Github Copilot.',
         syllabus: [
-            'Analisa Kebutuhan Sistem POS',
-            'Database Design untuk Transaksi & Stok',
-            'Backend API Development',
-            'Frontend Integration',
-            'Copilot AI: Suggesting Complex Logic',
-            'Realtime Order Notification',
-            'Laporan Penjualan & Grafik'
+            {
+                topic: "POS Architecting",
+                materials: [{ title: "System Design", duration: "20:00" }]
+            }
         ]
     },
     'filament': {
         title: 'Filament Mastery',
-        description: 'Cara tercepat membuat Dashboard Admin yang elegan menggunakan FilamentPHP. Hemat waktu coding hingga 80%.',
+        description: 'Cara tercepat membuat Admin Panel yang elegan dan powerful.',
         syllabus: [
-            'Instalasi Filament & Konfigurasi Dasar',
-            'Resource Management (CRUD Generator)',
-            'Form Builder & Table Builder',
-            'Custom Action & Bulk Actions',
-            'Widgets & Dashboard Metrics',
-            'Relation Manager',
-            'Customizing Filament Theme'
+            {
+                topic: "Filament Basics",
+                materials: [{ title: "Installation & Resource", duration: "25:00" }]
+            }
+        ]
+    },
+    'dummy1': {
+        title: 'New Course Update 1',
+        description: 'Materi baru yang akan segera hadir untuk melengkapi skillmu.',
+        syllabus: [
+            {
+                topic: "Introduction",
+                materials: [
+                    { title: "Coming Soon", duration: "00:00" },
+                    { title: "Materi Segera Hadir", duration: "00:00" }
+                ]
+            }
+        ]
+    },
+    'dummy2': {
+        title: 'New Course Update 2',
+        description: 'Materi baru yang akan segera hadir untuk melengkapi skillmu.',
+        syllabus: [
+            {
+                topic: "Introduction",
+                materials: [
+                    { title: "Coming Soon", duration: "00:00" },
+                    { title: "Materi Segera Hadir", duration: "00:00" }
+                ]
+            }
         ]
     },
     'career': {
         title: 'Strategi Karir Full Stack Web Developer',
-        description: 'Roadmap langkah demi langkah menembus industri tech. Pelajari cara membuat CV yang dilirik recruiter dan strategi negosiasi gaji.',
+        description: 'Roadmap langkah demi langkah menembus industri tech.',
         syllabus: [
-            'Memahami Jalur Karir Developer',
-            'Membuat CV & Portfolio yang Menjual',
-            'Tips Wawancara HR & User',
-            'Strategi Negosiasi Gaji',
-            'Remote Work Mastery',
-            'Freelancing vs Fulltime'
+            {
+                topic: "Career Path",
+                materials: [{ title: "Web Dev Roadmap", duration: "20:00" }]
+            }
         ]
     },
     'branding': {
-        title: 'Membangun Personal Branding untuk Programmer',
-        description: 'Cara menonjol di antara ribuan developer lain. Bangun reputasi online yang kuat melalui LinkedIn dan GitHub.',
+        title: 'Personal Branding',
+        description: 'Cara menonjol di antara ribuan developer lain.',
         syllabus: [
-            'Pentingnya Personal Branding',
-            'Optimasi Profil LinkedIn',
-            'Membangun Portfolio di GitHub',
-            'Content Creation untuk Developer',
-            'Networking di Komunitas Tech',
-            'Studi Kasus Developer Sukses'
+            {
+                topic: "Branding Basics",
+                materials: [{ title: "Why Branding Matters", duration: "15:00" }]
+            }
         ]
     },
     'english': {
         title: 'English For Developer',
-        description: 'Kuasai istilah teknis dan percakapan profesional. Tingkatkan kepercayaan diri untuk bekerja di lingkungan internasional.',
+        description: 'Kuasai istilah teknis dan percakapan profesional.',
         syllabus: [
-            'Technical Vocabulary',
-            'Reading Documentation',
-            'Writing Clean Code Comments',
-            'Daily Standup & Meeting Expressions',
-            'Job Interview in English',
-            'Email Communication'
+            {
+                topic: "Basic Tech English",
+                materials: [{ title: "Common Terms", duration: "15:00" }]
+            }
         ]
     }
 };
+
+function formatDuration(minutesStr) {
+    // Helper to format "mm:ss" string to total minutes if needed,
+    // but here we just pass it through or format nicely.
+    // Actually we need to sum "mm:ss".
+    return minutesStr;
+}
+
+function calculateTotalDuration(syllabus) {
+    let totalSeconds = 0;
+    syllabus.forEach(topic => {
+        topic.materials.forEach(material => {
+            const [mins, secs] = material.duration.split(':').map(Number);
+            totalSeconds += (mins * 60) + secs;
+        });
+    });
+
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+
+    return `${hours > 0 ? hours + ' Jam ' : ''}${minutes} Menit`;
+}
 
 function openSyllabus(courseId) {
     const modal = document.getElementById('syllabusModal');
@@ -484,24 +592,101 @@ function openSyllabus(courseId) {
 
     if (!data) return;
 
-    // Populate Data
+    // Populate Title & Desc
     document.getElementById('modalTitle').textContent = data.title;
     document.getElementById('modalDesc').textContent = data.description;
 
-    const syllabusBody = document.getElementById('modalSyllabus');
-    syllabusBody.innerHTML = ''; // Clear previous content
+    // Calculate Total Duration
+    const totalDuration = calculateTotalDuration(data.syllabus);
+    document.getElementById('totalDuration').textContent = totalDuration;
 
-    data.syllabus.forEach((item, index) => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${index + 1}</td>
-            <td>${item}</td>
+    // Build Accordion
+    const accordionContainer = document.getElementById('syllabusAccordion');
+    accordionContainer.innerHTML = ''; // Clear previous
+
+    data.syllabus.forEach((topic, index) => {
+        // Create Accordion Item
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'accordion-item';
+
+        // Header
+        const headerBtn = document.createElement('button');
+        headerBtn.className = 'accordion-header';
+        headerBtn.innerHTML = `
+            <span class="accordion-title">${topic.topic}</span>
+            <i class="fa-solid fa-chevron-down accordion-icon"></i>
         `;
-        syllabusBody.appendChild(row);
+
+        // Body
+        const bodyDiv = document.createElement('div');
+        bodyDiv.className = 'accordion-body';
+
+        // Materials List
+        const listUl = document.createElement('ul');
+        listUl.className = 'materials-list';
+
+        topic.materials.forEach(material => {
+            const li = document.createElement('li');
+            li.className = 'material-item';
+            li.innerHTML = `
+                <div class="material-title">
+                    <i class="fa-solid fa-circle-play material-icon"></i>
+                    <span>${material.title}</span>
+                </div>
+                <span class="material-duration">${material.duration}</span>
+            `;
+            listUl.appendChild(li);
+        });
+
+        bodyDiv.appendChild(listUl);
+        itemDiv.appendChild(headerBtn);
+        itemDiv.appendChild(bodyDiv);
+
+        // Click Event
+        headerBtn.addEventListener('click', () => {
+            const isActive = itemDiv.classList.contains('active');
+
+            // Close other items (Accordion behavior)
+            const allItems = accordionContainer.querySelectorAll('.accordion-item');
+            allItems.forEach(otherItem => {
+                if (otherItem !== itemDiv && otherItem.classList.contains('active')) {
+                    otherItem.classList.remove('active');
+                    const otherBody = otherItem.querySelector('.accordion-body');
+                    otherBody.style.maxHeight = null;
+                }
+            });
+
+            itemDiv.classList.toggle('active');
+
+            if (!isActive) {
+                bodyDiv.style.maxHeight = bodyDiv.scrollHeight + "px";
+            } else {
+                bodyDiv.style.maxHeight = null;
+            }
+        });
+
+        accordionContainer.appendChild(itemDiv);
+
+        // Auto-open first item
+        if (index === 0) {
+            // We need to wait for the element to be in the DOM to calculate scrollHeight correctly if we rely on it immediately,
+            // but since we are appending line by line, it is in the DOM (in the container which is in the modal).
+            // However, the modal is display:none initially.
+            // We'll set the active class, and handle the height after the modal is shown.
+            itemDiv.classList.add('active');
+        }
     });
 
     // Show Modal
     modal.style.display = 'block';
+
+    // Recalculate height for the active item now that modal is visible
+    const activeItem = accordionContainer.querySelector('.accordion-item.active');
+    if (activeItem) {
+        const body = activeItem.querySelector('.accordion-body');
+        body.style.maxHeight = body.scrollHeight + "px";
+    }
+
     // Small delay to allow display:block to apply before adding opacity class for transition
     setTimeout(() => {
         modal.classList.add('show');
@@ -515,9 +700,9 @@ function closeSyllabus() {
     const modal = document.getElementById('syllabusModal');
     modal.classList.remove('show');
 
-    // Wait for transition to finish before hiding
     setTimeout(() => {
         modal.style.display = 'none';
+        // Reset Accordions? Not strictly necessary as they re-render on open.
     }, 300);
 
     window.removeEventListener('click', outsideClick);
@@ -529,3 +714,36 @@ function outsideClick(e) {
         closeSyllabus();
     }
 }
+
+// Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger-menu');
+    const navLinks = document.getElementById('nav-links');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+
+            // Toggle icon
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close menu when link is clicked
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = hamburger.querySelector('i');
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            });
+        });
+    }
+});
