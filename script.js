@@ -350,7 +350,7 @@ window.addEventListener('load', () => {
 
 const courseData = {
     'php8': {
-        title: 'Fundamental PHP 8',
+        title: 'Modern PHP 8 & Database Mastery',
         description: 'Bangun fondasi yang kokoh dengan PHP 8 modern. Kelas ini dirancang untuk pemula yang ingin memahami konsep dasar pemrograman server-side.',
         syllabus: [
             {
@@ -379,7 +379,7 @@ const courseData = {
         ]
     },
     'oop': {
-        title: 'Object-Oriented Programming (OOP) PHP',
+        title: 'Professional Workflow dengan Git',
         description: 'Kuasai paradigma OOP standar industri. Materi ini wajib bagi kamu yang ingin lanjut mempelajari Framework Laravel.',
         syllabus: [
             {
@@ -408,7 +408,7 @@ const courseData = {
         ]
     },
     'olx': {
-        title: 'Studi Kasus OLX Clone',
+        title: 'Mastering OOP PHP (Object Oriented Programming)',
         description: 'Praktek langsung membangun aplikasi web marketplace barang bekas dari nol dengan bantuan AI tools.',
         syllabus: [
             {
@@ -437,7 +437,7 @@ const courseData = {
         ]
     },
     'laravel11': {
-        title: 'Laravel 11 Fullstack',
+        title: 'Membangun Marketplace dengan AI Assist',
         description: 'Panduan lengkap Framework Laravel 11. Membahas fitur-fitur core hingga best practice struktur aplikasi.',
         syllabus: [
             {
@@ -467,7 +467,7 @@ const courseData = {
     },
     // Dummy data for other courses to maintain functionality
     'laravel12': {
-        title: 'Laravel 12 Master (HRIS)',
+        title: 'Laravel 11: The Ultimate Fullstack Framework',
         description: 'Deep dive ke Laravel 12 dengan studi kasus kompleks membuat Sistem Informasi SDM (HRIS) perusahaan.',
         syllabus: [
             {
@@ -487,7 +487,7 @@ const courseData = {
         ]
     },
     'pos': {
-        title: 'AI-Driven Restoran App',
+        title: 'Filament Mastery: Membuat Admin Panel Kilat',
         description: 'Membuat aplikasi Point of Sales (Kasir) restoran dengan fitur cerdas menggunakan Github Copilot.',
         syllabus: [
             {
@@ -497,7 +497,7 @@ const courseData = {
         ]
     },
     'filament': {
-        title: 'Filament Mastery',
+        title: 'Proyek Enterprise: Sistem HRIS Laravel 12',
         description: 'Cara tercepat membuat Admin Panel yang elegan dan powerful.',
         syllabus: [
             {
@@ -507,7 +507,7 @@ const courseData = {
         ]
     },
     'dummy1': {
-        title: 'New Course Update 1',
+        title: 'AI-Driven SaaS: Aplikasi Restoran & QR Order',
         description: 'Materi baru yang akan segera hadir untuk melengkapi skillmu.',
         syllabus: [
             {
@@ -520,7 +520,7 @@ const courseData = {
         ]
     },
     'dummy2': {
-        title: 'New Course Update 2',
+        title: 'Deployment Expert: Meng-online-kan Aplikasi',
         description: 'Materi baru yang akan segera hadir untuk melengkapi skillmu.',
         syllabus: [
             {
@@ -543,7 +543,7 @@ const courseData = {
         ]
     },
     'branding': {
-        title: 'Personal Branding',
+        title: 'Membangun Personal Branding untuk Programmer',
         description: 'Cara menonjol di antara ribuan developer lain.',
         syllabus: [
             {

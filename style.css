@@ -1760,6 +1760,11 @@ h6 {
     color: var(--laravel-red);
 }
 
+.course-card .syllabus-meta {
+    padding: 0 var(--spacing-2xl);
+    margin: var(--spacing-sm) 0;
+}
+
 .syllabus-container {
     border: 1px solid var(--gray-200);
     border-radius: var(--radius-lg);
