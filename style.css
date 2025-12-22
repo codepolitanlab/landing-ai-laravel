@@ -302,6 +302,27 @@ h6 {
     z-index: 1;
 }
 
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: var(--spacing-xs) var(--spacing-lg);
+    border-radius: 100px;
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--spacing-lg);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-badge i {
+    color: #FFD700;
+}
+
 .hero-headline {
     font-size: var(--font-size-5xl);
     margin-bottom: var(--spacing-lg);
