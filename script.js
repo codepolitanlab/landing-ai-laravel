@@ -860,31 +860,31 @@ const courseData = {
     },
     'career': {
         title: 'Strategi Karir Full Stack Web Developer',
-        description: 'Roadmap langkah demi langkah menembus industri tech.',
+        description: 'Roadmap langkah demi langkah menembus industri tech, dari CV hingga negosiasi gaji.',
         syllabus: [
             {
-                topic: "Career Path",
-                materials: [{ title: "Web Dev Roadmap", duration: "20:00" }]
+                topic: "Introduction",
+                materials: [{ title: "Strategi Karir Full Stack Web Developer", duration: "120:00" }]
             }
         ]
     },
     'branding': {
         title: 'Membangun Personal Branding untuk Programmer',
-        description: 'Cara menonjol di antara ribuan developer lain.',
+        description: 'Cara menonjol di antara ribuan developer lain dan dikejar recruiter melalui LinkedIn & GitHub.',
         syllabus: [
             {
-                topic: "Branding Basics",
-                materials: [{ title: "Why Branding Matters", duration: "15:00" }]
+                topic: "Introduction",
+                materials: [{ title: "Personal Branding", duration: "120:00" }]
             }
         ]
     },
     'english': {
         title: 'English For Developer',
-        description: 'Kuasai istilah teknis dan percakapan profesional.',
+        description: 'Kuasai istilah teknis dan percakapan profesional untuk bekerja di perusahaan internasional.',
         syllabus: [
             {
-                topic: "Basic Tech English",
-                materials: [{ title: "Common Terms", duration: "15:00" }]
+                topic: "Introduction",
+                materials: [{ title: "English For Developer!", duration: "120:00" }]
             }
         ]
     }
