@@ -351,87 +351,112 @@ window.addEventListener('load', () => {
 const courseData = {
     'php8': {
         title: 'Modern PHP 8 & Database Mastery',
-        description: 'Bangun fondasi yang kokoh dengan PHP 8 modern. Kelas ini dirancang untuk pemula yang ingin memahami konsep dasar pemrograman server-side.',
+        description: 'Pelajari fondasi utama bahasa pemrograman PHP versi terbaru dan teknik pengelolaan database. Inilah modal utama kamu sebelum menjadi developer profesional.',
         syllabus: [
             {
-                topic: "Persiapan & Dasar",
+                topic: "PHP 8 dan MySQL: Panduan CRUD Lengkap untuk Pemula",
                 materials: [
-                    { title: "Pengenalan & Instalasi Environment", duration: "10:00" },
-                    { title: "Basic Syntax & Variable", duration: "15:00" },
-                    { title: "Tipe Data & Operator", duration: "20:00" }
+                    { title: "Introduction", duration: "04:14" },
+                    { title: "PHPMyAdmin", duration: "08:12" },
+                    { title: "Create Table", duration: "08:46" },
+                    { title: "Alter Table", duration: "04:41" },
+                    { title: "Insert Data", duration: "13:18" },
+                    { title: "Select", duration: "12:45" },
+                    { title: "Select Filter", duration: "06:51" },
+                    { title: "Update", duration: "11:18" },
+                    { title: "Delete", duration: "04:41" },
+                    { title: "Pengenalan MySQLi", duration: "05:07" },
+                    { title: "Mengkoneksikan database", duration: "12:51" },
+                    { title: "Select Query", duration: "09:00" },
+                    { title: "Menampilkan data", duration: "08:53" },
+                    { title: "Menampilkan data detail", duration: "10:50" },
+                    { title: "Menampilkan data detail", duration: "10:32" },
+                    { title: "Form Tambah Data", duration: "14:33" },
+                    { title: "Insert data", duration: "13:49" },
+                    { title: "Form Update", duration: "12:53" },
+                    { title: "Update", duration: "05:27" },
+                    { title: "Delete", duration: "06:52" },
+                    { title: "Search", duration: "13:56" },
+                    { title: "Pendahuluan & Connection", duration: "08:51" },
+                    { title: "Insert", duration: "10:16" },
+                    { title: "List & Search", duration: "11:09" },
+                    { title: "Detail", duration: "04:46" },
+                    { title: "Update & Delete", duration: "06:17" }
                 ]
-            },
+            }
+        ]
+    },
+    'git': {
+        title: 'Professional Workflow dengan Git',
+        description: 'Kuasai cara mengelola kode dan kolaborasi tim menggunakan Git. Kamu akan belajar standar kerja yang digunakan oleh tim developer di perusahaan besar.',
+        syllabus: [
             {
-                topic: "Control Structure",
+                topic: "Belajar Git Pemula",
                 materials: [
-                    { title: "Logic Control Structure (If/Else, Switch)", duration: "25:00" },
-                    { title: "Perulangan (For, While, Foreach)", duration: "20:00" }
-                ]
-            },
-            {
-                topic: "Fungsi & Fitur Modern",
-                materials: [
-                    { title: "Function & Type Hinting", duration: "30:00" },
-                    { title: "Superglobal Variables", duration: "15:00" },
-                    { title: "PHP 8 New Features", duration: "20:00" }
+                    { title: "GIT Pendahuluan", duration: "11:40" },
+                    { title: "GIT Panduan Instalasi GIT", duration: "03:38" },
+                    { title: "GIT Macam-macam Perintah GIT Dasar", duration: "02:44" },
+                    { title: "GIT Menginisialisasi project dengan git init dan mencoba clone", duration: "06:12" },
+                    { title: "GIT Menambahkan file baru, dan melakukan git add", duration: "03:47" },
+                    { title: "GIT Reset perubahan file dengan git reset", duration: "01:54" },
+                    { title: "GIT Melakukan commit, mempraktekan diff dan log", duration: "06:51" },
+                    { title: "GIT Melakukan unggah file dengan git push", duration: "08:52" },
+                    { title: "GIT Melakukan unduh file dengan git pull", duration: "03:16" },
+                    { title: "GIT Bermain main dengan fetch dan branch", duration: "05:21" },
+                    { title: "GIT Membuat branch baru, melakukan checkout", duration: "07:31" },
+                    { title: "GIT Menyatukan branch satu dengan lainnya, git merge", duration: "03:44" },
+                    { title: "GIT Menyelesaikan Konflik pada GIT", duration: "07:23" },
+                    { title: "GIT Menandai milestone project dengan git tag", duration: "04:21" }
                 ]
             }
         ]
     },
     'oop': {
-        title: 'Professional Workflow dengan Git',
-        description: 'Kuasai paradigma OOP standar industri. Materi ini wajib bagi kamu yang ingin lanjut mempelajari Framework Laravel.',
-        syllabus: [
-            {
-                topic: "Konsep Dasar OOP",
-                materials: [
-                    { title: "Class & Object", duration: "15:00" },
-                    { title: "Property & Method", duration: "20:00" },
-                    { title: "Constructor & Destructor", duration: "15:00" }
-                ]
-            },
-            {
-                topic: "Advanced OOP",
-                materials: [
-                    { title: "Inheritance (Pewarisan)", duration: "25:00" },
-                    { title: "Encapsulation & Visibility", duration: "20:00" },
-                    { title: "Abstract Class & Interface", duration: "30:00" }
-                ]
-            },
-            {
-                topic: "Modern PHP OOP",
-                materials: [
-                    { title: "Namespace & Autoloading", duration: "15:00" },
-                    { title: "Trait & Anonymous Class", duration: "20:00" }
-                ]
-            }
-        ]
-    },
-    'olx': {
         title: 'Mastering OOP PHP (Object Oriented Programming)',
-        description: 'Praktek langsung membangun aplikasi web marketplace barang bekas dari nol dengan bantuan AI tools.',
+        description: 'Pelajari cara menulis kode yang rapi, terstruktur, dan mudah dikembangkan. Konsep ini adalah kunci utama untuk memahami kecanggihan framework Laravel.',
         syllabus: [
             {
-                topic: "Perancangan Sistem",
+                topic: "Pengenalan OOP",
                 materials: [
-                    { title: "Analisis Kebutuhan", duration: "15:00" },
-                    { title: "Database Design & ERD", duration: "30:00" }
+                    { title: "Apa itu OOP", duration: "09:05" },
+                    { title: "Cara Mendefinisikan Class", duration: "08:06" },
+                    { title: "Memahami Instance Object", duration: "05:16" },
+                    { title: "Property pada Class OOP", duration: "10:37" },
+                    { title: "Method pada Class OOP", duration: "07:32" },
+                    { title: "Menggunakan Object", duration: "08:54" },
+                    { title: "Mengenal Inheritance", duration: "05:39" },
+                    { title: "Mendefinisikan Subclass", duration: "08:39" }
                 ]
             },
             {
-                topic: "Backend Development",
+                topic: "MATERI LANJUTAN",
                 materials: [
-                    { title: "Setup Laravel & Auth", duration: "20:00" },
-                    { title: "CRUD Produk", duration: "45:00" },
-                    { title: "Upload Gambar Multiple", duration: "25:00" }
-                ]
-            },
-            {
-                topic: "Frontend & AI Integration",
-                materials: [
-                    { title: "Search & Filter Feature", duration: "30:00" },
-                    { title: "Windsurf AI Integration", duration: "20:00" },
-                    { title: "Deployment", duration: "15:00" }
+                    { title: "Extend dan Override", duration: "09:52" },
+                    { title: "Visibilitas Object – Encapsulation", duration: "14:24" },
+                    { title: "Setter dan Getter", duration: "08:59" },
+                    { title: "Static Property dan Method", duration: "10:14" },
+                    { title: "Pewarisan Static Property dan Method", duration: "08:07" },
+                    { title: "Constant Class", duration: "06:01" },
+                    { title: "Merujuk Parent Class", duration: "09:45" },
+                    { title: "Construct Method", duration: "06:57" },
+                    { title: "Construct Argument", duration: "08:05" },
+                    { title: "Destruct Method", duration: "07:30" },
+                    { title: "Clone Method", duration: "05:50" },
+                    { title: "Autoload Method", duration: "08:50" },
+                    { title: "PHP Namespace Overview", duration: "04:17" },
+                    { title: "Menggunakan Namespace", duration: "07:18" },
+                    { title: "Menggunakan Composer", duration: "08:19" },
+                    { title: "Penjelasan Interface", duration: "04:50" },
+                    { title: "Membuat Interface", duration: "06:35" },
+                    { title: "Penjelasan Trait", duration: "03:11" },
+                    { title: "Membuat Trait", duration: "03:55" },
+                    { title: "Penjelasan Abstract Class", duration: "02:48" },
+                    { title: "Membuat Abstract Class", duration: "04:11" },
+                    { title: "Penjelasan Type Hint", duration: "06:04" },
+                    { title: "Penjelasan Strict Declaration", duration: "04:49" },
+                    { title: "Penjelasan Return Type", duration: "07:15" },
+                    { title: "Penjelasan Closure", duration: "07:41" },
+                    { title: "Membuat Closure", duration: "08:48" }
                 ]
             }
         ]
