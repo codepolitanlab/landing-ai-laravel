@@ -461,67 +461,264 @@ const courseData = {
             }
         ]
     },
-    'laravel11': {
+    'olx': {
         title: 'Membangun Marketplace dengan AI Assist',
-        description: 'Panduan lengkap Framework Laravel 11. Membahas fitur-fitur core hingga best practice struktur aplikasi.',
+        description: 'Praktek langsung membuat website marketplace (OLX Clone) menggunakan PHP yang dipercepat dengan bantuan AI. Belajar cara kerja cerdas sejak awal.',
         syllabus: [
             {
-                topic: "Getting Started",
+                topic: "PHP Native & MySQL: Membangun Website OLX Clone dengan AI Assist Windsurf",
                 materials: [
-                    { title: "Instalasi Laravel 11", duration: "10:00" },
-                    { title: "Struktur Folder & Konfigurasi", duration: "15:00" }
-                ]
-            },
-            {
-                topic: "Core Features",
-                materials: [
-                    { title: "Routing & Controller", duration: "25:00" },
-                    { title: "Blade Templating Engine", duration: "30:00" },
-                    { title: "Request & Validation", duration: "20:00" }
-                ]
-            },
-            {
-                topic: "Database & Security",
-                materials: [
-                    { title: "Migration & Seeding", duration: "20:00" },
-                    { title: "Eloquent ORM", duration: "35:00" },
-                    { title: "Middleware & Authentication", duration: "25:00" }
+                    { title: "Introduction", duration: "02:07" },
+                    { title: "Mengapa AI", duration: "04:07" },
+                    { title: "Apakah AI Akan Menggantikan Programmer", duration: "05:14" },
+                    { title: "Skenario Yang Akan Dibuat", duration: "02:54" },
+                    { title: "Tools yang dibutuhkan apa saja", duration: "03:21" },
+                    { title: "Sekilas Tentang Agentic IDE", duration: "03:46" },
+                    { title: "Apa Itu Database", duration: "03:38" },
+                    { title: "Instalasi Windsurf Editor", duration: "04:12" },
+                    { title: "Instalasi XAMPP", duration: "05:46" },
+                    { title: "User Persona", duration: "06:23" },
+                    { title: "Merancang Database", duration: "04:52" },
+                    { title: "Konfigurasi Dulu", duration: "07:05" },
+                    { title: "Relasi dan Table", duration: "15:05" },
+                    { title: "Halaman Utama", duration: "11:51" },
+                    { title: "Halaman Detail", duration: "06:11" },
+                    { title: "Halaman Login dan Register", duration: "04:37" },
+                    { title: "Halaman Pasang Iklan", duration: "08:36" },
+                    { title: "Konfigurasi Awal", duration: "06:06" },
+                    { title: "Skema Register", duration: "11:44" },
+                    { title: "Skema Login", duration: "08:19" },
+                    { title: "Kategori dinamis pada post ad", duration: "09:22" },
+                    { title: "Location dinamis pada post ad", duration: "11:03" },
+                    { title: "Post ad bagian 1", duration: "13:31" },
+                    { title: "Post ad bagian 2", duration: "06:05" },
+                    { title: "Testing pasang iklan", duration: "06:03" },
+                    { title: "Skenario Halaman Beranda", duration: "08:42" },
+                    { title: "Skenario Halaman Detail", duration: "09:26" },
+                    { title: "Percantik Halaman Detail", duration: "05:51" },
+                    { title: "Halaman Iklan Saya", duration: "07:36" },
+                    { title: "Fitur Edit dan Hapus Iklan Saya", duration: "12:27" },
+                    { title: "Session Notice dan Logout", duration: "04:12" },
+                    { title: "Halaman Edit Profile", duration: "09:09" },
+                    { title: "Testing Semua Fitur", duration: "08:54" },
+                    { title: "Persiapan Launch Market", duration: "04:10" },
+                    { title: "Hosting Bagian 1", duration: "16:36" },
+                    { title: "Hosting Lanjutan dan Final Testing", duration: "08:01" }
                 ]
             }
         ]
     },
-    // Dummy data for other courses to maintain functionality
-    'laravel12': {
-        title: 'Laravel 11: The Ultimate Fullstack Framework',
-        description: 'Deep dive ke Laravel 12 dengan studi kasus kompleks membuat Sistem Informasi SDM (HRIS) perusahaan.',
+    'laravel11': {
+        title: 'Laravel: The Ultimate Fullstack Framework',
+        description: 'Kuasai framework PHP paling populer saat ini. Kamu akan belajar membangun aplikasi web yang utuh, aman, dan berperforma tinggi dari nol.',
         syllabus: [
             {
-                topic: "Laravel 12 Overview",
+                topic: "Router",
                 materials: [
-                    { title: "What's New in Laravel 12", duration: "15:00" },
-                    { title: "Upgrade Guide", duration: "10:00" }
+                    { title: "router - mengenal cara kerja router", duration: "05:05" },
+                    { title: "router - kenali http method sebelum praktek", duration: "04:30" },
+                    { title: "router - contoh penggunaan method get", duration: "07:36" },
+                    { title: "router - cara kerja method post di laravel", duration: "08:55" },
+                    { title: "router - mendapatkan data dari user menggunakan method post", duration: "06:27" },
+                    { title: "router - mengubah data dengan method put dan cara kirim melalui form", duration: "06:00" },
+                    { title: "router - menggunakan route parameter untuk menentukan data", duration: "04:12" },
+                    { title: "router - menggunakan method patch untuk ubah data", duration: "04:02" },
+                    { title: "router - menggunakan method delete dan kesimpulan", duration: "04:31" }
                 ]
             },
             {
-                topic: "HRIS Module 1",
+                topic: "Middleware",
                 materials: [
-                    { title: "Database Architecture", duration: "30:00" },
-                    { title: "Employee Management", duration: "40:00" }
+                    { title: "middleware - pengenalan middleware", duration: "07:16" },
+                    { title: "middleware - cek membership dengan middleware", duration: "08:55" },
+                    { title: "middleware - melakukan aksi sebelum atau sesudah request dilanjutkan", duration: "05:43" },
+                    { title: "middleware - mendefinisikan middleware pada tempatnya", duration: "03:32" },
+                    { title: "middleware - satu route bisa banyak middleware", duration: "04:38" },
+                    { title: "middleware - cara menerapkan middleware di banyak route", duration: "04:49" }
                 ]
-            }
-        ]
-    },
-    'pos': {
-        title: 'Filament Mastery: Membuat Admin Panel Kilat',
-        description: 'Membuat aplikasi Point of Sales (Kasir) restoran dengan fitur cerdas menggunakan Github Copilot.',
-        syllabus: [
+            },
             {
-                topic: "POS Architecting",
-                materials: [{ title: "System Design", duration: "20:00" }]
+                topic: "Controller",
+                materials: [
+                    { title: "controller - cara membuat controller", duration: "07:02" },
+                    { title: "controller - cara mendefinsikan data di controller", duration: "04:28" },
+                    { title: "controller - cara menghubungkan router dengan controller", duration: "05:27" },
+                    { title: "controller - mendapatkan data berdasarkan parameter di controller", duration: "05:34" },
+                    { title: "controller - mengirimkan data dari user ke controller", duration: "05:39" },
+                    { title: "controller - mengubah data properti dari class controller", duration: "07:22" },
+                    { title: "controller - menghapus nilai property dari class controller", duration: "05:40" },
+                    { title: "Controller - Menerapkan Middleware Controller Lebih Spesifik", duration: "04:35" }
+                ]
+            },
+            {
+                topic: "Request",
+                materials: [
+                    { title: "Request - Apa Saja Data Di Dalam Request", duration: "03:45" },
+                    { title: "Request - Menggunakan Object Request Sebagai Dependency Injection", duration: "05:58" },
+                    { title: "Request - Contoh Method Request Yg Bermanfaat", duration: "05:20" },
+                    { title: "Request - Cara Mendapatkan Data", duration: "05:30" },
+                    { title: "Request - Cara Mengolah Data Dari Request", duration: "07:33" },
+                    { title: "Request - Method Khusus Untuk Data Input Dan Query Params", duration: "04:58" },
+                    { title: "Request - Method Khusus Untuk Data Tanggal", duration: "05:31" },
+                    { title: "Request - Cek Data Dari Request", duration: "04:04" },
+                    { title: "Request - Mencari Request Yg Hilang Dan Menambahkannya", duration: "03:47" }
+                ]
+            },
+            {
+                topic: "Response",
+                materials: [
+                    { title: "Response - Mengenal Response Dan Response Pada Header", duration: "05:16" },
+                    { title: "Response - Menambahkan Data Headers Untuk Cache", duration: "06:06" },
+                    { title: "Response - Menambahkan Data Cookie Melalui Response", duration: "05:00" },
+                    { title: "Response - Menghapus Data Cookie Dari Response", duration: "04:13" },
+                    { title: "Redirect - Response Beralih Ke Halaman Lain", duration: "03:58" },
+                    { title: "Redirect - Redirect Menggunakan Controller", duration: "04:00" },
+                    { title: "Redirect - Redirect Ke Halaman External Atau Menggunakan Url", duration: "02:58" },
+                    { title: "Response - Membuat Nilai Balik Dalam Bentuk Json", duration: "03:45" }
+                ]
+            },
+            {
+                topic: "View",
+                materials: [
+                    { title: "View - Cara Menampilkan Halaman", duration: "05:48" },
+                    { title: "View - Membuat File View Lebih Terstruktur", duration: "05:17" },
+                    { title: "View - Melempar Data Dari Controller Ke View", duration: "04:24" },
+                    { title: "View - Cara Lain Mengirimkan Data Ke View", duration: "03:48" },
+                    { title: "View - Berbagi Data Di Manapun View Berada", duration: "05:48" },
+                    { title: "View - Membuat Service Provider Untuk Sharing Data", duration: "05:32" },
+                    { title: "View - Membagikan Data Menggunakan View Composer", duration: "03:43" },
+                    { title: "View - Memisahkan Logic Data Untuk View Composer", duration: "05:41" }
+                ]
+            },
+            {
+                topic: "Blade",
+                materials: [
+                    { title: "Blade - Cara Blade Menampilkan Data", duration: "06:36" },
+                    { title: "Blade - Kondisi If", duration: "04:46" },
+                    { title: "Blade - Cara Ternary If Di Blade", duration: "04:22" },
+                    { title: "Blade - Switch Statement", duration: "04:39" },
+                    { title: "Blade - Perulangan Di Dalam Blade", duration: "08:42" },
+                    { title: "Blade - Penerapan Continue Dan Break Di Perulangan Blade", duration: "05:36" },
+                    { title: "Blade - Ada Variabel Tersembunyi Dari Perulangan", duration: "06:16" },
+                    { title: "Blade - Menggunakan Kondisi Di Dalam Attribute Class", duration: "04:06" },
+                    { title: "Blade - Memecah Tampilan Blade Dengan Fungsi Include", duration: "05:19" }
+                ]
+            },
+            {
+                topic: "Layouting",
+                materials: [
+                    { title: "Layouting - Membuat Master Layout", duration: "05:01" },
+                    { title: "Layouting - Membuat Content Dan Component Blade Dinamis", duration: "08:14" },
+                    { title: "Layouting - Menampilkan Daftar Movie Dari Array", duration: "07:47" },
+                    { title: "Layouting - Menampilkan Detail Movie", duration: "10:20" },
+                    { title: "Layouting - Membuat Form Tambah Movie", duration: "08:48" },
+                    { title: "Layouting - Menyimpan Data Movie Baru", duration: "09:54" },
+                    { title: "Layouting - Menampilkan Halaman Edit Beserta Datanya", duration: "09:13" },
+                    { title: "Layouting - Memperbarui Data Movie", duration: "06:00" },
+                    { title: "Layouting - Memperbaiki Link Pada Icon Edit Movie", duration: "04:35" },
+                    { title: "Layouting - Membuat Action Button Delete Movie Dan Menghapusnya", duration: "06:30" },
+                    { title: "Layouting - Mengenal Layouting Dengan Component Anonymous", duration: "07:50" },
+                    { title: "Layouting - Membuat Banyak Section Di Satu Component", duration: "05:14" },
+                    { title: "Layouting - Mengirimkan Data Ke Child Component Anonymous", duration: "04:54" },
+                    { title: "Layouting - Membuat Card Movie Dengan Class Component", duration: "06:39" },
+                    { title: "Layouting - Mengirimkan Data Ke Class Component", duration: "04:30" },
+                    { title: "Layouting - Memodifikasi Data Di Class Component", duration: "04:48" },
+                    { title: "Layouting - Membuat Logic Validasi Di Class Component", duration: "04:09" },
+                    { title: "Layouting - Membuat Method Bisa Diakses Di Component View", duration: "04:34" }
+                ]
+            },
+            {
+                topic: "Validation",
+                materials: [
+                    { title: "Validation - Cara Membuat Validasi Requets Input", duration: "06:19" },
+                    { title: "Validation - Menampilkan Error Message Berdasarkan Field", duration: "06:44" },
+                    { title: "Validation - Menambahkan Rules Validation Lebih Dari Satu", duration: "05:15" },
+                    { title: "Validation - Mengembalikan Nilai Inputan Sebelumnya", duration: "04:42" },
+                    { title: "Validation - Menulis Rules Validation Pada Tempatnya", duration: "06:09" },
+                    { title: "Validation - Membuat Error Message Validasi Sendiri", duration: "04:50" }
+                ]
+            },
+            {
+                topic: "Session",
+                materials: [
+                    { title: "Session - Mengenal Session Dan Konfigurasinya", duration: "07:58" },
+                    { title: "Session - Menyimpan Dan Menampilkan Data Session", duration: "04:50" },
+                    { title: "Session - Menyimpan Data Array Dan Menampilkan Seluruh Isi Session", duration: "03:31" },
+                    { title: "Session - Cara Menghapus Data Session", duration: "04:47" }
+                ]
+            },
+            {
+                topic: "Migration",
+                materials: [
+                    { title: "Configurasi Database di Laravel", duration: "06:17" },
+                    { title: "Membuat Desain Tabel dengan Migration", duration: "08:14" },
+                    { title: "Menambahkan Kolom Baru Pada Tabel", duration: "07:15" },
+                    { title: "Memodifikasi Tabel yang Sudah Ada", duration: "06:12" },
+                    { title: "Menghapus Kolom Menggunakan Migration", duration: "03:25" },
+                    { title: "Menambahkan Index Kolom pada Tabel", duration: "04:34" }
+                ]
+            },
+            {
+                topic: "Seeder",
+                materials: [
+                    { title: "Membuat Contoh Data dengan Seeder", duration: "09:23" }
+                ]
+            },
+            {
+                topic: "Query",
+                materials: [
+                    { title: "Mendapatkan Data dengan Query Builder", duration: "07:56" }
+                ]
+            },
+            {
+                topic: "Query dan ORM",
+                materials: [
+                    { title: "Mendapatkan Data dengan Eloquent", duration: "06:34" },
+                    { title: "Menambahkan Data ke DB dengan Query Builder", duration: "06:58" },
+                    { title: "Menambahkan Data ke DB dengan Eloquent", duration: "05:46" },
+                    { title: "Mengubah Data ke DB dengan Query Builder", duration: "04:10" },
+                    { title: "Mengubah Data ke DB dengan Eloquent", duration: "04:34" },
+                    { title: "Menghapus Data di DB with Query Builder and Eloquent", duration: "04:09" }
+                ]
+            },
+            {
+                topic: "Database Relationship",
+                materials: [
+                    { title: "persiapan desain tabel yang berelasi", duration: "05:59" },
+                    { title: "one to one - menambahkan data yg berelasi", duration: "08:28" },
+                    { title: "one to one - menampilkan data relasi", duration: "05:15" },
+                    { title: "one to one - mengubah dan menghapus data", duration: "05:33" },
+                    { title: "one to many - persiapan model dan migration", duration: "06:39" },
+                    { title: "one to many - mendapatkan parent beserta child", duration: "07:35" },
+                    { title: "one to many - Mendapatkan data dari relasi dengan filtering", duration: "09:19" },
+                    { title: "many to many - persiapan tabel dan model", duration: "06:41" },
+                    { title: "many to many - menambahkan data antar model", duration: "05:47" },
+                    { title: "many to many - menghapus data antar model", duration: "03:35" },
+                    { title: "many to many - menambahkan dan menghapus data antar model sekaligus", duration: "04:36" }
+                ]
+            },
+            {
+                topic: "Auth",
+                materials: [
+                    { title: "Register", duration: "06:28" },
+                    { title: "Register Part 2", duration: "07:47" },
+                    { title: "Login", duration: "06:32" },
+                    { title: "Penerapan Middleware Auth Pada Halaman dan Logout", duration: "05:44" }
+                ]
             }
         ]
     },
     'filament': {
+        title: 'Filament Mastery: Membuat Admin Panel Kilat',
+        description: 'Pelajari cara membangun dashboard admin yang canggih dan terlihat sangat profesional hanya dalam hitungan menit. Teknik ini akan sangat menghemat waktu kerjamu.',
+        syllabus: [
+            {
+                topic: "Filament untuk Pemula: Laravel Admin Tanpa Pusing ",
+                materials: [{ title: "Filament Laravel Admin", duration: "60:01" }]
+            }
+        ]
+    },
+    'laravel12': {
         title: 'Proyek Enterprise: Sistem HRIS Laravel 12',
         description: 'Cara tercepat membuat Admin Panel yang elegan dan powerful.',
         syllabus: [
