@@ -720,36 +720,140 @@ const courseData = {
     },
     'laravel12': {
         title: 'Proyek Enterprise: Sistem HRIS Laravel 12',
-        description: 'Cara tercepat membuat Admin Panel yang elegan dan powerful.',
+        description: 'Tantang dirimu membangun sistem manajemen karyawan (HRIS) yang kompleks. Gunakan fitur-fitur terbaru Laravel 12 untuk menangani logika bisnis skala besar.',
         syllabus: [
             {
-                topic: "Filament Basics",
-                materials: [{ title: "Installation & Resource", duration: "25:00" }]
-            }
-        ]
-    },
-    'dummy1': {
-        title: 'AI-Driven SaaS: Aplikasi Restoran & QR Order',
-        description: 'Materi baru yang akan segera hadir untuk melengkapi skillmu.',
-        syllabus: [
-            {
-                topic: "Introduction",
+                topic: "Mengembangkan Sistem HRIS Seperti Talenta Menggunakan Laravel 12",
                 materials: [
-                    { title: "Coming Soon", duration: "00:00" },
-                    { title: "Materi Segera Hadir", duration: "00:00" }
+                    { title: "Pembukaan", duration: "01:07" },
+                    { title: "Pengenalan Tools", duration: "03:37" },
+                    { title: "Konteks & Demo Sisi Admin", duration: "05:31" },
+                    { title: "Konteks & Demo Sisi Karyawan", duration: "05:16" },
+                    { title: "Database Design (ERD)", duration: "04:48" },
+                    { title: "Install Laravel", duration: "02:24" },
+                    { title: "Setup ENV dan DB", duration: "05:09" },
+                    { title: "Setup Migration", duration: "21:05" },
+                    { title: "Run Migration & Bug Fixing", duration: "08:45" },
+                    { title: "Seeding", duration: "32:19" },
+                    { title: "Install Laravel Breeze", duration: "08:34" },
+                    { title: "Install Dashboard Template", duration: "27:14" },
+                    { title: "Mengatur Layouts", duration: "14:58" },
+                    { title: "Fitur Tasks - Index", duration: "34:12" },
+                    { title: "Fitur Tasks - Handle Create", duration: "15:12" },
+                    { title: "Fitur Tasks - Install Flatpickr", duration: "07:09" },
+                    { title: "Fitur Tasks - Handle Form Edit", duration: "17:19" },
+                    { title: "Fitur Tasks - Handle Delete", duration: "06:07" },
+                    { title: "Fitur Tasks - Marking Status", duration: "05:59" },
+                    { title: "Fitur Tasks - Handle show", duration: "06:51" },
+                    { title: "Fitur Employees - Index", duration: "21:21" },
+                    { title: "Fitur Employees - Handle Create", duration: "24:04" },
+                    { title: "Fitur Employees - Handle show", duration: "05:14" },
+                    { title: "Fitur Employees - Update Data", duration: "25:34" },
+                    { title: "Fitur Employees - Delete Data", duration: "04:37" },
+                    { title: "Fitur Departments - Index", duration: "08:27" },
+                    { title: "Fitur Departments - Create", duration: "09:44" },
+                    { title: "FItur Departments - Edit", duration: "10:15" },
+                    { title: "Fitur Departments - Delete", duration: "02:37" },
+                    { title: "Fitur Roles - Index", duration: "04:33" },
+                    { title: "Fitur Roles - Create", duration: "01:16" },
+                    { title: "Fitur Roles - Update", duration: "06:51" },
+                    { title: "Fitur Roles - Delete", duration: "01:36" },
+                    { title: "Fitur Presences - Index", duration: "11:36" },
+                    { title: "Fitur Presences - Create", duration: "00:10" },
+                    { title: "Fitur Presences - Update", duration: "09:04" },
+                    { title: "Fitur Presence - Delete", duration: "02:10" },
+                    { title: "Fitur Payrolls - Index", duration: "15:12" },
+                    { title: "Fitur Payrolls - Create", duration: "14:32" },
+                    { title: "Fitur Payrolls - Update", duration: "11:41" },
+                    { title: "Fitur Payrolls - Delete", duration: "03:31" },
+                    { title: "Fitur Payrolls - Salary Slip", duration: "14:38" },
+                    { title: "Fitur Leave Requests - Index", duration: "12:38" },
+                    { title: "Fitur Leave Requests - Create", duration: "08:58" },
+                    { title: "Fitur Leave Requests - Update", duration: "07:33" },
+                    { title: "Fitur Leave Requests - Confirm Reject", duration: "07:08" },
+                    { title: "Fitur Leave Requests - Delete", duration: "01:45" },
+                    { title: "Konsep Auth & Authorization", duration: "02:52" },
+                    { title: "Implementasi Middleware CheckRole", duration: "19:55" },
+                    { title: "Memperbaiki Link Sidebar", duration: "03:22" },
+                    { title: "Memperbaiki Link Sidebar - Minor Patch", duration: "01:08" },
+                    { title: "Fitur Tasks Karyawan", duration: "03:24" },
+                    { title: "Fitur Presence Karyawan", duration: "32:58" },
+                    { title: "Fitur Payroll Karyawan", duration: "03:49" },
+                    { title: "Fitur Leave Request Karyawan", duration: "08:10" },
+                    { title: "Handle menu active", duration: "04:05" },
+                    { title: "Mempercantik Insight - Total Data", duration: "14:41" },
+                    { title: "Mempercantik Insight - Latest Task", duration: "04:57" },
+                    { title: "Mempercantik Insight - Presence Chart", duration: "16:56" },
+                    { title: "Finishing", duration: "02:13" }
                 ]
             }
         ]
     },
-    'dummy2': {
+    'restoran': {
+        title: 'AI-Driven SaaS: Aplikasi Restoran & QR Order',
+        description: 'Gunakan bantuan AI tingkat lanjut untuk membangun aplikasi sistem pesanan restoran berbasis QR. Proyek ini sangat berkelas untuk dijadikan portofolio unggulan.',
+        syllabus: [
+            {
+                topic: "Mengembangkan Aplikasi Restoran Berbasis QR dengan Laravel 12 + Copilot AI",
+                materials: [
+                    { title: "Pendahuluan Gambaran Aplikasi", duration: "02:24" },
+                    { title: "Demo Aplikasi - Pembayaran Tunai", duration: "07:19" },
+                    { title: "Demo Aplikasi - Pembayaran QRIS", duration: "04:43" },
+                    { title: "ER Diagram", duration: "05:22" },
+                    { title: "Use Case Diagram", duration: "02:46" },
+                    { title: "Instalasi", duration: "03:14" },
+                    { title: "Setup ENV", duration: "02:40" },
+                    { title: "Setup Repository Git", duration: "02:48" },
+                    { title: "Struktur Folder", duration: "02:34" },
+                    { title: "Migrations Table Users", duration: "04:53" },
+                    { title: "Migrations & Seeder Table Roles", duration: "03:25" },
+                    { title: "Migration Table Categories dan Items", duration: "02:58" },
+                    { title: "Factory Seeder Categories dan Items", duration: "03:16" },
+                    { title: "Factory Seeder Users", duration: "03:10" },
+                    { title: "Migrations Table Orders and Order", duration: "03:29" },
+                    { title: "Migrate", duration: "01:53" },
+                    { title: "Models", duration: "08:48" },
+                    { title: "Integrasi Template Menu", duration: "09:50" },
+                    { title: "Integrasi Template Cart dan Checkout", duration: "03:18" },
+                    { title: "Database Seeder", duration: "04:03" },
+                    { title: "MenuController Index", duration: "18:38" },
+                    { title: "MenuController AddToCart", duration: "11:23" },
+                    { title: "MenuController Empty Cart", duration: "04:26" },
+                    { title: "MenuController Update Quantity Cart", duration: "21:36" },
+                    { title: "MenuController Remove Cart", duration: "11:33" },
+                    { title: "MenuController Checkout Page", duration: "10:50" },
+                    { title: "MenuController Checkout Payment Cash", duration: "22:40" },
+                    { title: "MenuController Order Success", duration: "24:15" },
+                    { title: "Konfigurasi Midtrans Payment Gateway", duration: "05:50" },
+                    { title: "Implementasi Midtrans Payment Gateway", duration: "21:49" },
+                    { title: "Integrasi Template Admin", duration: "12:07" },
+                    { title: "Sidebar & Routes Admin", duration: "08:53" },
+                    { title: "Menampilkan Item dengan DataTable", duration: "29:26" },
+                    { title: "Store dan Update Data Item", duration: "24:48" },
+                    { title: "Delete Data Item dan Alert", duration: "10:47" },
+                    { title: "CRUD Role", duration: "07:35" },
+                    { title: "CRUD Karyawan", duration: "22:40" },
+                    { title: "CRUD Kategori", duration: "12:19" },
+                    { title: "Daftar Pesanan", duration: "09:52" },
+                    { title: "Melihat Detail Pesanan", duration: "22:54" },
+                    { title: "Update Status Menu", duration: "07:56" },
+                    { title: "Setup Autentikasi dengan Breeze", duration: "23:50" },
+                    { title: "Role Cashier & Konfirmasi Pesanan T", duration: "07:12" },
+                    { title: "Role Chef & Update Pesanan Menjadi", duration: "06:30" },
+                    { title: "Memperbaiki UI dan Halaman Login", duration: "20:49" },
+                    { title: "Recap Project & Pengembangan Selanjutnya", duration: "13:00" }
+                ]
+            }
+        ]
+    },
+    'deploy': {
         title: 'Deployment Expert: Meng-online-kan Aplikasi',
-        description: 'Materi baru yang akan segera hadir untuk melengkapi skillmu.',
+        description: 'Tahap akhir yang sangat krusial. Pelajari cara menyewa server (VPS), setting keamanan SSL, hingga aplikasi buatanmu resmi online dan bisa diakses seluruh dunia.',
         syllabus: [
             {
                 topic: "Introduction",
                 materials: [
-                    { title: "Coming Soon", duration: "00:00" },
-                    { title: "Materi Segera Hadir", duration: "00:00" }
+                    { title: "VPS, Domain Setting dan DNS", duration: "60:00" }
                 ]
             }
         ]
